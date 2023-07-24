@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiojolokia"
+version = "0.1.0"
+authors = [
+  { name="Alexander Pozlevich", email="apozlevich@gmail.com" },
+]
+description = "Python Jookia API client module"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Topic :: System :: Monitoring",
+    "Programming Language :: Java",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
